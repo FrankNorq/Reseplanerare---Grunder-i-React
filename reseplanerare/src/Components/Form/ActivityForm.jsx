@@ -9,9 +9,8 @@ function CreateForm() {
     
   }
    
-
     return ( <form className="h" onSubmit={handleSubmit}>
-        <h1>Välkommen till min sida</h1>
+        <h4>Fyll i dina uppgifter och kika konsollen</h4>
         <input type="text" name="plats" placeholder="ange plats" required />
         <input type="date" name="datum" placeholder="ange datum" required/>
         <input type="text" name="aktivitet" placeholder="ange aktivitet" required />
