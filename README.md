@@ -1,10 +1,15 @@
-# Reseplanerare---Grunder-i-React
-##Hur man använder applikationen.
-Clona repot på guthubdesktop. (https länken för att klona hittar du på den gröna knappen.)
-öppna i vsCode.
-öppna terminalen git bash.
--- npm install
---cd reseplanerare
---npm run dev
-Här kan du lägga resor du har planerade så du kommer ihåg domm (just nu sparas dom i konsollen).
+# Reseplanerare - Grunder i React
 
+## Hur man använder applikationen
+
+Följ dessa steg för att komma igång med applikationen:
+
+1. Klona repot med GitHub Desktop. (Du hittar HTTPS-länken för att klona under den gröna knappen.)
+2. Öppna projektet i VS Code.
+3. Öppna terminalen och välj Git Bash.
+4. Kör följande kommandon:
+   - `npm install`
+   - `cd reseplanerare`
+   - `npm run dev`
+
+Nu kan du lägga till resor du har planerat, så att du kommer ihåg dem. (För närvarande sparas resorna i konsolen.)
