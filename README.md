@@ -13,3 +13,4 @@ Följ dessa steg för att komma igång med applikationen:
    - `npm run dev`
 
 Nu kan du lägga till resor du har planerat, så att du kommer ihåg dem. (För närvarande sparas resorna i konsolen.)
+Detta är en start innan vi lärt oss states etc
