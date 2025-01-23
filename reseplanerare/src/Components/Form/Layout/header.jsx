@@ -1,6 +1,6 @@
 function HeaderComponent() {
     return ( <header>
-        <h1>Välkommen till min fantastiska ToDoList</h1>
+        <h1>Välkommen till min fantastiska Reseplanerare</h1>
         
     </header> );
 }
