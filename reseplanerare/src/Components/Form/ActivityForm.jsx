@@ -1,4 +1,6 @@
-
+import FormActivity from "./FormActivity";
+import FormDate from "./FormDate";
+import FormPlace from "./FormPlace";
 function CreateForm({ title }) {
     // här hanteras inputs 
     const handleSubmit = (event) => {
@@ -10,13 +12,12 @@ function CreateForm({ title }) {
       
       
     }
-    //  detta är min form som jag skapar med CreateForm 
+//  detta är min form som jag skapar med CreateForm 
       return ( <form className="h" onSubmit={handleSubmit}>
-          <h4>{title} </h4>
-          <input type="text"  name="plats" placeholder="ange plats" required />
-          <input type="date" name="datum" placeholder="ange datum" required/>
-          <input type="text" name="aktivitet" placeholder="ange aktivitet" required />
-          <button type="submit">Spara aktivitet</button>
+       <FormActivity></FormActivity>
+       <FormDate></FormDate>
+       <FormPlace></FormPlace>
+       <button>Spara aktivitet</button>
       </form>
   
        );
