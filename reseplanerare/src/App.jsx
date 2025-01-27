@@ -1,22 +1,22 @@
-import { useState } from 'react'
-import './App.css'
-import CreateForm from './Components/Form/ActivityForm'
-import HeaderComponent from './Components/Form/Layout/header'
-import FooterComponent from './Components/Form/Layout/footer'
+import { useState, useEffect } from 'react';
+import './App.css';
+import TravelForm from './Components/Form/TravelForm';
+import TravelList from './Components/Form/TravelList';
 
 
 function App() {
-  const [newState,setState] = useState()
-  return (
-    <>
-    {/* här importerar jag mina olika komponenter till main  */}
-<HeaderComponent></HeaderComponent>
-<CreateForm title="UnderRubrik med props"></CreateForm>
-<FooterComponent></FooterComponent>
+  const [travels, setTravels] = useState([]);
 
-
-    </>
-  )
+  const addTravel = (travel) => {
+      setTravels([...travels, travel]);
+  };
+return (
+  <div className="app">
+     <h1>Reseplaneraren</h1>
+<TravelForm addTravel = {addTravel}></TravelForm>
+<TravelList travels = {travels}></TravelList>
+</div>
+)
 }
 
-export default App
+export default App;
