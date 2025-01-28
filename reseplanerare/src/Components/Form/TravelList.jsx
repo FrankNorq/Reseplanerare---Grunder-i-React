@@ -3,7 +3,7 @@ function TravelList({ travels }) {
         <ul>
             {travels.map((travel, index) => (
                 <li key={index}>
-                    {travel.activity} - {travel.destination} - {travel.date}
+                   Aktivitet :  {travel.activity} - {travel.destination} - {travel.date}
                 </li>
             ))}
         </ul>

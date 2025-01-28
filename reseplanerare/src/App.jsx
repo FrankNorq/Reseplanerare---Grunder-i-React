@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
+import useLocalStorage from './Components/useLocalStorage';
 import './App.css';
 import TravelForm from './Components/Form/TravelForm';
 import TravelList from './Components/Form/TravelList';
 
 
 function App() {
-  const [travels, setTravels] = useState([]);
+  const [travels, setTravels] = useLocalStorage("travels", []);
 
   const addTravel = (travel) => {
       setTravels([...travels, travel]);
