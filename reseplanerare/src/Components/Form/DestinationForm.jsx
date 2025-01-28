@@ -1,16 +1,15 @@
-
 function DestinationForm({ destination, setDestination }) {
-    return (
-      <div>
+  return (
+    <div>
       <input
-          type="text"
-          value={destination}
-          onChange={(e) => setDestination(e.target.value)}
-          placeholder="Plats"
-          required
+        type="text"
+        value={destination}
+        onChange={(e) => setDestination(e.target.value)}
+        placeholder="Plats"
+        required
       />
-  </div>
-    );
+    </div>
+  );
 }
 
 export default DestinationForm;
