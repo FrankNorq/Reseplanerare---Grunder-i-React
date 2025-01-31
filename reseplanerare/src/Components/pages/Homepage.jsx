@@ -1,7 +1,9 @@
+import stockholmImg from '../../assets/Stockholm.jpg'
+
 function Home() {
     return ( 
         <div>
-            <p>HomePage</p>
+            <img src={stockholmImg} alt="Stockholm stad" style={{ width: '300px', height: 'auto' }} />
         </div>
      );
 }

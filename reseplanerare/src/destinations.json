@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Paris",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT33vLeg1FRMJ30VNtHf6e3BlHWaPuGH8ZHxQ&s",
+      "description": "Känd för sina konstverk och romantiska atmosfär."
+    },
+    {
+      "id": 2,
+      "name": "New York",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Pmq3Gv7y7z_2Xun-OqMIk43kd5u0TXEatw&s",
+      "description": "En stad som aldrig sover, full av liv och energi."
+    },
+    {
+      "id": 3,
+      "name": "Tokyo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNPyod1P-wJDwlErOyxNlS81h1HJb0G7ZgYw&s",
+      "description": "En modern stad med rik kultur och historia."
+    },
+    {
+        "id": 4,
+        "name": "Sstockholm",
+        "image": "https://www.travelguide.se/media/shutterstock_613199033.jpg",
+        "description": "En fin stad i sverige som heter Stockholm. Du kan åka på en båt i skärgården o mysa."
+    }
+  ]
