@@ -1,17 +1,19 @@
 import { Outlet, NavLink } from "react-router-dom";
 
 function HelpLayout() {
-    return ( 
-        <div>
-            <h5>hej</h5>
-            <nav>
-            <NavLink to="faq">FAQ</NavLink>
-            <NavLink to="contact">Contact</NavLink>
-            </nav>
-        
+  return (
+    <div>
+      <h5>hej</h5>
+      <nav>
+        <NavLink to="/help/faq">FAQ</NavLink>
+        <NavLink to="/help/contact">Contact</NavLink>
+      </nav>
+
+      <main>
         <Outlet></Outlet>
-        </div>
-     );
+      </main>
+    </div>
+  );
 }
 
 export default HelpLayout;
